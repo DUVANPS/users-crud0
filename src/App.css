@@ -1,0 +1,84 @@
+.form__container{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #0003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__close{
+    transform: scale(0);
+}
+.container__btnCrud{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: rgba(18, 15, 15, 0.169);
+    height: 5rem ;
+    
+}
+.title__crud{
+    color: rgb(252, 3, 3);
+    margin: 1rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.title__btnOpen{
+    color: rgb(252, 3, 3);
+    background-color: rgba(148, 34, 171, 0.089);
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 0.3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.605);
+}
+.container__card{
+    width: 100%;
+    max-width: 300px;
+    background-color: rgba(170, 19, 160, 0.064);
+    padding: 1em 1.5em 2.5em;
+    border-radius: 0.8em;
+    border: 1px solid #aaa5;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+.container__general{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    align-items: center;
+    justify-content: center;
+}
+.title__name{
+    color: rgb(110, 45, 40);
+}
+.container__data{
+    align-items: center;
+    justify-content: center;
+    color: rgb(62, 50, 50);
+}
+.container__bir{
+    color: rgb(27, 33, 31);
+}
+.container__dele{
+    background-color: red;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 0.2rem;
+    height: 1.6rem;
+
+}
+.container__edi{
+    background-color: rgba(212, 0, 255, 0.409);
+    border: none;
+    border-radius: 0.2rem;
+    height: 1.6rem;
+}
